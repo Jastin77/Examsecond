@@ -1,0 +1,173 @@
+section {
+
+    .information_wrap {
+
+        .title {
+            display: flex;
+            // align-items: center;
+            // text-align: center;
+            margin: 0 auto;
+            margin-right: 450px;
+            justify-content: center;
+            width: 730px;
+            font-family: 'DM Serif Display';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 56px;
+            line-height: 56px;
+
+            letter-spacing: -0.430769px;
+            margin-bottom: 51px;
+            color: #36536B;
+        }
+
+        .text_wrap {}
+
+        .hero_texts {
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            margin-bottom: 56px;
+
+            .hero_title {
+                width: 255px;
+                font-family: 'DM Serif Display';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 32px;
+                line-height: 40px;
+
+                letter-spacing: -0.246154px;
+
+                color: #36536B;
+            }
+
+            .hero_text {
+                width: 635px;
+                font-family: 'Public Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 28px;
+
+                color: #6C8294;
+            }
+        }
+
+    }
+}
+
+@media screen and(max-width: 768px) {
+    .information_wrap {}
+
+    .title {
+        padding: 0 95px;
+        width: 573px;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 56px;
+
+        text-align: center;
+        letter-spacing: -0.369231px;
+        color: #36536B;
+    }
+
+    .hero_text{
+        // display: flex;
+        gap: 10px;
+    }
+
+    .hero_title {
+        font-family: 'DM Serif Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 40px;
+        /* identical to box height, or 125% */
+
+        letter-spacing: -0.246154px;
+
+        color: #36536B;
+        text-align: center;
+
+        width: 223px;
+    }
+
+    .hero_text {
+        font-family: 'Public Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 28px;
+        /* or 187% */
+
+
+        color: #6C8294;
+        text-align: center;
+
+        width: 456px;
+    }
+}
+
+@media screen and(max-width: 375px) {
+    .information_wrap {
+        padding-left: 0px;
+
+    }
+
+    .container {
+        // padding-left: 75px;
+    }
+
+    .title {
+        width: 327px;
+        padding-right: 215px;
+        font-size: 32px;
+        line-height: 36px;
+
+        text-align: center;
+        letter-spacing: -0.246154px;
+        color: #36536B;
+        padding-left: 170px;
+    }
+
+    .text_wrap {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 327px;
+        // height: 350px;
+        padding-left: 350px;
+    }
+
+    .hero_texts {
+        flex-wrap: wrap;
+
+    }
+
+    .hero_title {
+        // padding-right: -90px;
+        // width: 255px;
+        font-size: 24px;
+        line-height: 32px;
+
+        text-align: center;
+        letter-spacing: -0.184615px;
+
+        color: #36536B;
+    }
+
+    .hero_text {
+        // padding-left: 50px;
+        width: 307px;
+        // width: 100%;
+        font-size: 15px;
+        line-height: 28px;
+
+        text-align: center;
+        color: #6C8294;
+    }
+}

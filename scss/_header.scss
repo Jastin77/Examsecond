@@ -1,0 +1,112 @@
+.header{
+    
+    padding-top: 40px;
+    margin-bottom: 84px;
+
+    
+    &__nav_wrap {
+        position: relative;
+        top: -.1rem;
+        right: -6.4rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    &__menu {
+        margin-left: -125px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__lists {
+        margin-left: 64px;
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 40px;
+    }
+
+    &__items {
+        font-family: 'Public Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 18px;
+
+        color: #36536B;
+        mix-blend-mode: normal;
+        opacity: 0.7;
+    }
+
+
+    &__gamburg {
+        display: none;
+    }
+
+    &__img {
+        position: absolute;
+        top: .1rem;
+        // left: -2rem;
+        right: 1.6rem;
+        z-index: -2;
+    }
+
+    &__links {
+        width: 173px;
+        height: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        // margin-left: 50px;
+        // padding: 16px 24px 24px 26px;
+        background: #BA4270;
+        box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+        border-radius: 24px;
+    }
+
+    &__link {
+
+        text-decoration: none;
+
+        font-family: 'Public Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 18px;
+        letter-spacing: -0.115385px;
+        color: #FBFCFE;
+    }
+
+}
+
+@media screen and(max-width: 768px) {
+    .header__links {
+        margin-right: 30px;
+    }
+}
+
+@media screen and (max-width: 378px) {
+    .header__lists {
+        display: none;
+    }
+
+    .header__links {
+        display: none;
+    }
+
+    .header__img {
+        display: none;
+    }
+
+    .header__gamburg {
+        display: block;
+    }
+
+    .header__nav_img {
+        margin-left: 340px;
+        margin-right: 450px;
+    }
+}

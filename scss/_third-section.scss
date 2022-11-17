@@ -1,0 +1,294 @@
+.third-section {
+
+
+    .residence_wrap {
+
+        .all_information {
+            margin-bottom: 100px;
+
+            .culture {
+                display: flex;
+                // align-items: center;
+                justify-content: center;
+                margin-bottom: 56px;
+
+                .culter_h3 {
+                    width: 255px;
+                    font-family: 'DM Serif Display';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 32px;
+                    line-height: 40px;
+                    letter-spacing: -0.246154px;
+
+                    color: #36536B;
+                }
+
+                .culture_info {
+                    width: 635px;
+                    font-family: 'Public Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 28px;
+
+                    color: #6C8294;
+                }
+
+            }
+
+            .peoples {
+                display: flex;
+                // align-items: center;
+                justify-content: center;
+                // gap: 56px;
+
+                .people_h3 {
+                    width: 255px;
+                    font-family: 'DM Serif Display';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 32px;
+                    line-height: 40px;
+                    letter-spacing: -0.246154px;
+
+                    color: #36536B;
+                }
+
+                .people_info {
+                    width: 635px;
+                    font-family: 'Public Sans';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 28px;
+
+                    color: #6C8294;
+                }
+            }
+        }
+
+        .ready_wrap {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 2px;
+
+            .title_ready {
+                font-family: 'DM Serif Display';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 48px;
+                line-height: 56px;
+                letter-spacing: -0.369231px;
+                color: #36536B;
+            }
+
+            .input_wrap {
+                margin-left: 202px;
+
+                .adress_email {
+                    width: 445px;
+                    height: 48px;
+                    padding: 16px 0 14px 27px;
+                    border-radius: 24px;
+                }
+
+                .email_btn {
+                    margin-left: -173px;
+                    width: 173px;
+                    height: 48px;
+                    background: #BA4270;
+                    color: #FBFCFE;
+                    border-radius: 24px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and(max-width: 768px) {
+    
+    .residence_wrap {
+        // overflow: hidden;
+    }
+    .all_information {}
+
+    .culture {
+        gap: 10px;
+
+        .culter_h3 {
+            width: 223px;
+        }
+
+        .culture_info {
+            width: 456px;
+            // font-family: 'Public Sans';
+            // font-style: normal;
+            // font-weight: 400;
+            // font-size: 15px;
+            // line-height: 28px;
+
+            // color: #6C8294;
+        }
+    }
+
+    .peoples {
+        gap: 10px;
+
+        .people_h3 {
+            width: 223px;
+        }
+
+        .people_info {
+            width: 456px;
+            font-family: 'Public Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 28px;
+
+            color: #6C8294;
+        }
+    }
+
+    .ready_wrap {
+        display: block;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        text-align: center;
+
+        .title_ready {
+            width: 445px;
+            font-size: 48px;
+            line-height: 56px;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .input_wrap {
+            display: flex;
+            align-items: center;
+            align-items: center;
+            justify-content: center;
+            margin-right: 190px;
+
+            .email_btn {
+                width: 173px;
+                height: 48px;
+                font-family: 'Public Sans';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 15px;
+                line-height: 18px;
+
+
+                text-align: center;
+                letter-spacing: -0.115385px;
+
+                color: #FBFCFE;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .residence_wrap {
+        margin-top: 65px;
+    }
+
+    .all_information {
+        display: block;
+        justify-content: center;
+        margin-left: 150px;
+        text-align: center;
+
+    }
+
+    .culture {
+        width: 441px;
+        flex-wrap: wrap;
+        margin-bottom: 48px;
+
+        .culter_h3 {
+            width: 255px;
+            margin-bottom: 16px;
+        }
+
+        .culture_info {
+            width: 327px;
+            font-size: 15px;
+            line-height: 28px;
+            text-align: center;
+
+        }
+    }
+
+    .peoples {
+        width: 441px;
+        flex-wrap: wrap;
+        margin-bottom: 48px;
+        // margin-left: 150px;
+
+        .people_h3 {
+            width: 255px;
+            margin-bottom: 16px;
+        }
+
+        .people_info {
+            width: 327px;
+            font-size: 15px;
+            line-height: 28px;
+            text-align: center;
+
+        }
+    }
+
+
+    .ready_wrap {
+        flex-wrap: wrap;
+        width: 441px;
+        margin-bottom: 48px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: relative;
+
+        .input_wrap {
+            flex-wrap: wrap;
+            width: 441px;
+
+            .adress_email {
+                width: 441px;
+                height: 48px;
+                margin-bottom: 16px;
+                margin-left: -22px;
+            }
+
+            .email_btn {
+                padding: 15px 220px;
+                margin-right: -150px;
+                width: 441px;
+                height: 48px;
+                background: #BA4270;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                background: #BA4270;
+                border-radius: 24px;
+
+                font-family: 'Public Sans';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 15px;
+                line-height: 18px;
+                text-align: center;
+                color: #FBFCFE;
+            }
+        }
+    }
+}

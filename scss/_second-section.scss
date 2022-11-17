@@ -1,0 +1,125 @@
+.second-section {
+    margin-bottom: 72px;
+
+    // &__peoples_wrapper {
+        
+    // }
+
+    &__peoples_img {
+        width: 1440px;
+        width: 100%;
+        height: 500px;
+        padding-left: 0px;
+        padding-right: 10px;
+        margin-bottom: 72px;
+    }
+
+    &__info {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-left: 150px;
+        gap: 30px;
+    }
+
+    &__hr {
+        margin: 16px 0;
+        width: 350px;
+        height: 1px;
+        background: #36536B;
+        mix-blend-mode: normal;
+        // opacity: 0.25;
+    }
+
+    &__text {
+        font-family: 'Public Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+
+        color: #36536B;
+
+        mix-blend-mode: normal;
+        opacity: 0.7;
+    }
+
+    &__title {
+        font-family: 'DM Serif Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 56px;
+        line-height: 72px;
+
+        letter-spacing: -0.430769px;
+
+        color: #BA4270;
+    }
+
+}
+
+@media screen and(max-width: 768px) {
+
+    .second-section__peoples_img{
+        width: 769px;
+        height: 267px;
+    }
+
+    .second-section__hr {
+        display: none;
+
+    }
+
+    .second-section__text {
+        display: none;
+    }
+
+    .second-section__title {
+        width: 223px;
+        font-family: 'DM Serif Display';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 56px;
+        line-height: 72px;
+        letter-spacing: -0.430769px;
+        color: #BA4270;
+    }
+
+    .second-section__info{
+        
+        width: 327px;
+        padding-right: -10px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .second-section__info{
+        display: block;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .second-section__hr{
+        // display: block;
+    }
+
+    .second-section__text{
+        display: block;
+    }
+    .second-section__title{
+        text-align: center; 
+        // padding-right: 0px;
+        
+    }
+    .second-section__members{
+        width: 100%;
+        width: 216px;
+        flex-wrap: wrap;
+        margin-left: 110px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+}
